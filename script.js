@@ -4,7 +4,7 @@ const sampleData = {
   title: "Software Developer",
   contact: {
     email: "abhimanyulinux@gmail.com",
-    phone: "+91-9773774159",
+    phone: "",
     address: "New Delhi, India",
     linkedin: "https://linkedin.com/in/abhimanyusharma-dev",
     github: "https://github.com/abhimanyusama",
