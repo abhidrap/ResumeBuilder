@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="editor-panel">
+            <div class="editor-header">
+                <h2>Resume Builder</h2>
+                <div class="button-group">
+                    <button class="btn-primary" onclick="updateResume()">Update Resume</button>
+                    <button class="btn-secondary" onclick="loadSample()">Load Sample</button>
+                    <button class="btn-success" onclick="exportResume()">Export JSON</button>
+                    <button class="btn-secondary" onclick="window.print()">Print/PDF</button>
+                    <button onclick="openResumePrintPage()">Open Resume in New Tab for Print</button>
+                </div>
+            </div>
+            
+            <div class="json-editor">
+                <textarea id="jsonInput" placeholder="Paste your JSON resume data here..."></textarea>
+            </div>
+            
+            <div id="errorMessage" class="error-message" style="display: none;"></div>
+        </div>
+        
+        <div class="preview-panel">
+            <div class="preview-header">
+                <h2>Live Preview</h2>
+            </div>
+            
+            <div class="resume-container">
+                <div id="resumePreview" class="resume">
+                    <div class="resume-header">
+                        <h1>Your Name</h1>
+                        <h2>Your Title</h2>
+                        <div class="contact-info">
+                            <span>📧 your.email@example.com</span>
+                            <span>📱 Your Phone</span>
+                        </div>
+                    </div>
+                    
+                    <div class="section">
+                        <div class="summary">
+                            <p>Paste your JSON data in the editor and click "Update Resume" to see your professional resume here!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+</body>
+</html>
