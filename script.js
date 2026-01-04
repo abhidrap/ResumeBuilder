@@ -1,43 +1,57 @@
 // Sample JSON data
 const sampleData = {
-  name: "Abhimanyu Sharma",
-  title: "Software Developer",
-  contact: {
-    email: "abhimanyulinux@gmail.com",
-    phone: "",
-    address: "New Delhi, India",
-    linkedin: "https://linkedin.com/in/abhimanyusharma-dev",
-    github: "https://github.com/abhimanyusama",
-    website1: "https://fastboard.ai/",
-    website2: "https://voxing.ai/",
+  "name": "Abhimanyu Sharma",
+  "title": "Software Engineer",
+  "contact": {
+    "email": "abhimanyulinux@gmail.com",
+    "phone": "9773774159",
+    "address": "New Delhi, India",
+    "linkedin": "https://linkedin.com/in/abhimanyusharma-dev",
+    "github": "https://github.com/abhimanyusama",
+    "website1": "https://fastboard.ai/",
+    "website2": "https://voxing.ai/"
   },
-  summary:
-    "Detail-oriented and results-driven Software Engineer with a strong foundation in business analysis, data analysis, and technical solution delivery. Experienced in cross-functional collaboration, gathering business requirements, optimizing processes, and delivering data-driven insights.",
-  experience: [
+  "experience": [
     {
-      position: "Software Engineer",
-      company: "LCNC Technologies",
-      duration: "January 2024 - Present",
-      responsibilities: [
+  "position": "Software Engineer",
+  "company": "Taboola",
+  "duration": "October 2025 - Present",
+  "responsibilities": [
+    "Owned end-to-end delivery of ad widget implementations, coordinating with clients, designers, and internal teams to ensure timely and accurate execution.",
+    "Translated client mockups and business requirements into functional, high-quality ad widgets with pixel-perfect UI and brand alignment.",
+    "Acted as a point of contact between stakeholders, providing regular status updates, clarifying requirements, and managing expectations.",
+    "Planned and tracked tasks, timelines, and dependencies for multiple ad campaigns, ensuring on-time delivery across parallel projects.",
+    "Performed comprehensive QA and validation of ad widgets, including functional, regression, and cross-browser testing before deployment.",
+    "Identified risks and issues early in the development lifecycle and worked with relevant teams to resolve them efficiently.",
+    "Reviewed and approved ad creatives against quality standards, reducing rework and improving overall delivery efficiency.",
+    "Ensured ads met internal quality, compliance, and performance standards prior to release."
+  ]
+}
+,
+    {
+      "position": "Software Engineer",
+      "company": "LCNC Technologies",
+      "duration": "January 2024 - October 2025",
+      "responsibilities": [
         "Led client meetings to understand business needs, providing regular updates and ensuring alignment of technical solutions with business objectives.",
         "Worked closely with cross-functional teams to gather detailed requirements, ensuring that the final product meets the desired business outcomes.",
         "Identified areas for process optimization, implementing solutions that increased operational efficiency and improved client satisfaction.",
         "Created and maintained detailed project documentation, including business requirement documents (BRDs), functional specifications, and user stories.",
         "Collaborated with design teams to optimize user interfaces, increasing user engagement by 30% and improving client satisfaction.",
-        "Worked with developers to implement mobile-first design strategies, improving mobile traffic by 20%",
-        "Identified inefficiencies in system performance, which led to a 20% improvement in page load times and a reduction in bounce rates.",
+        "Worked with developers to implement mobile-first design strategies, improving mobile traffic by 20%.",
+        "Identified inefficiencies in system performance, leading to a 20% improvement in page load times and a reduction in bounce rates.",
         "Contributed to implementing SEO best practices, resulting in a 42% increase in organic search traffic.",
         "Worked with backend teams to optimize API response times, improving overall performance and user experience.",
         "Collaborated with third-party providers to integrate data, enhancing functionality and increasing user interaction by 30%.",
         "Ensured that all data handling processes were secure and compliant, reducing security vulnerabilities by 20%.",
-        "Developed SQL-based solutions to extract, manipulate, and analyze business-critical data, leading to more data-driven decision-making.",
-      ],
-    },
+        "Developed SQL-based solutions to extract, manipulate, and analyze business-critical data, enabling data-driven decision-making."
+      ]
+    }
   ],
-  skills: [
+  "skills": [
     {
-      category: "Business Analysis",
-      items: [
+      "category": "Business Analysis",
+      "items": [
         "Requirements Gathering",
         "Documentation",
         "Process Analysis",
@@ -45,12 +59,12 @@ const sampleData = {
         "Data-Driven Decision Making",
         "Stakeholder Management",
         "Requirement Workshops",
-        "Presentations",
-      ],
+        "Presentations"
+      ]
     },
     {
-      category: "Frontend",
-      items: [
+      "category": "Frontend",
+      "items": [
         "JavaScript",
         "React.js",
         "Vue.js",
@@ -58,77 +72,90 @@ const sampleData = {
         "HTML",
         "CSS",
         "JSON",
-        "XML",
-      ],
+        "XML"
+      ]
     },
     {
-      category: "Backend",
-      items: [
+      "category": "Backend",
+      "items": [
         "Node.js",
         "Express.js",
         "Socket.io",
         "Cylon.js",
         "SQL (MySQL, PostgreSQL)",
-        "Python",
-      ],
+        "Python"
+      ]
     },
     {
-      category: "Database",
-      items: [
+      "category": "Database",
+      "items": [
         "MongoDB",
         "MySQL",
         "PostgreSQL",
         "SQL Query Optimization",
-        "Data Warehousing",
-      ],
+        "Data Warehousing"
+      ]
     },
     {
-      category: "Tools",
-      items: ["Git", "Linux", "MS Office", "JIRA"],
+      "category": "Tools",
+      "items": [
+        "Git",
+        "Linux",
+        "MS Office",
+        "JIRA"
+      ]
     },
     {
-      category: "Client Communication",
-      items: [
+      "category": "Client Communication",
+      "items": [
         "Stakeholder Management",
         "Requirement Workshops",
-        "Presentations",
+        "Presentations"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "3 Level Smart Helmet",
+      "technologies": [
+        "Cylon.js",
+        "Node.js"
       ],
+      "description": "Led requirements gathering for a smart helmet project designed to improve safety standards on roads through integrated sensors and real-time data. Focused on ensuring user requirements were met and the project adhered to timelines and budgets."
     },
+    {
+      "name": "AI Voice Agent",
+      "technologies": [
+        "Langchain",
+        "Node.js",
+        "Twilio",
+        "Deepgram"
+      ],
+      "description": "Developed a voice-based AI agent using Langchain and Node.js to interact with users via voice commands. Integrated Twilio for voice call functionality, enabling seamless communication for customer support and information retrieval. Focused on delivering an intuitive user experience with real-time voice processing."
+    },
+    {
+      "name": "Real-Time Chat Application",
+      "technologies": [
+        "React",
+        "Node.js",
+        "MongoDB",
+        "Socket.io"
+      ],
+      "description": "Worked closely with the development team to define user requirements and ensure the chat application met both business and technical goals."
+    }
   ],
-  projects: [
+  "education": [
     {
-      name: "3 Level Smart Helmet",
-      technologies: ["Cylon.js", "Node.js"],
-      description:
-        "Led requirements gathering for a smart helmet project designed to improve safety standards on roads through integrated sensors and real-time data. Focused on ensuring user requirements were met and the project adhered to timelines and budgets.",
+      "degree": "Master of Computer Applications (MCA)",
+      "institution": "Bharati Vidyapeeth",
+      "graduation_date": "January 2024"
     },
     {
-      name: "AI Voice Agent",
-      technologies: ["Langchain", "Node.js", "Twilio", "Deepgram"],
-      description:
-        "Developed a voice-based AI agent using Langchain and Node.js to interact with users via voice commands. Integrated Twilio for voice call functionality, enabling seamless communication for customer support and information retrieval. Focused on delivering an intuitive user experience with real-time voice processing.",
-    },
-    {
-      name: "Real-Time Chat Application",
-      technologies: ["React", "Node.js", "MongoDB", "Socket.io"],
-      description:
-        "Worked closely with the development team to define user requirements and ensure the chat application met both business and technical goals.",
-    },
-  ],
-  education: [
-    {
-      degree: "Master of Computer Applications (MCA)",
-      institution: "Bharati Vidyapeeth",
-      graduation_date: "January 2024",
-      // "cgpa": "8.2 (First Division)"
-    },
-    {
-      degree: "Bachelor of Computer Applications (BCA)",
-      institution: "Jagan Institute of Management Studies",
-      graduation_date: "March 2019",
-      // "gpa": "6.2 (Second Division)"
-    },
-  ],
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "institution": "Jagan Institute of Management Studies",
+      "graduation_date": "March 2019"
+    }
+  ]
 };
 
 function showError(message) {
