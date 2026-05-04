@@ -1,7 +1,7 @@
 // Sample JSON data
 const sampleData = {
   "name": "Abhimanyu Sharma",
-  "title": "Software Engineer",
+  "title": "Implementation Engineer",
   "contact": {
     "email": "abhimanyulinux@gmail.com",
     "phone": "9773774159",
@@ -13,7 +13,7 @@ const sampleData = {
   },
   "experience": [
     {
-  "position": "Software Engineer",
+  "position": "Implementation Engineer",
   "company": "Taboola",
   "duration": "October 2025 - Present",
   "responsibilities": [
@@ -33,10 +33,8 @@ const sampleData = {
       "company": "LCNC Technologies",
       "duration": "January 2024 - October 2025",
       "responsibilities": [
-        "Led client meetings to understand business needs, providing regular updates and ensuring alignment of technical solutions with business objectives.",
         "Worked closely with cross-functional teams to gather detailed requirements, ensuring that the final product meets the desired business outcomes.",
         "Identified areas for process optimization, implementing solutions that increased operational efficiency and improved client satisfaction.",
-        "Created and maintained detailed project documentation, including business requirement documents (BRDs), functional specifications, and user stories.",
         "Collaborated with design teams to optimize user interfaces, increasing user engagement by 30% and improving client satisfaction.",
         "Worked with developers to implement mobile-first design strategies, improving mobile traffic by 20%.",
         "Identified inefficiencies in system performance, leading to a 20% improvement in page load times and a reduction in bounce rates.",
@@ -44,7 +42,6 @@ const sampleData = {
         "Worked with backend teams to optimize API response times, improving overall performance and user experience.",
         "Collaborated with third-party providers to integrate data, enhancing functionality and increasing user interaction by 30%.",
         "Ensured that all data handling processes were secure and compliant, reducing security vulnerabilities by 20%.",
-        "Developed SQL-based solutions to extract, manipulate, and analyze business-critical data, enabling data-driven decision-making."
       ]
     }
   ],
