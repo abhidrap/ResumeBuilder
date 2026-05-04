@@ -134,15 +134,14 @@ const sampleData = {
       "description": "Developed a voice-based AI agent using Langchain and Node.js to interact with users via voice commands. Integrated Twilio for voice call functionality, enabling seamless communication for customer support and information retrieval. Focused on delivering an intuitive user experience with real-time voice processing."
     },
     {
-      "name": "Real-Time Chat Application",
-      "technologies": [
-        "React",
-        "Node.js",
-        "MongoDB",
-        "Socket.io"
-      ],
-      "description": "Worked closely with the development team to define user requirements and ensure the chat application met both business and technical goals."
-    }
+  "name": "Calorie Chat",
+  "technologies": [
+    "Next.js",
+    "Supabase",
+    "Gemini API"
+  ],
+  "description": "Built an AI-powered chat application that enables users to log their daily food intake through natural conversation. The system uses Gemini AI to understand and record food items, calculate daily calorie consumption, and generate insightful monthly analytics reports to help users monitor and improve their nutrition habits."
+}
   ],
   "education": [
     {
